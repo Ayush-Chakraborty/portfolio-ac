@@ -1,0 +1,17 @@
+header{
+    color: #F2EB3E;
+    display: flex;
+    align-items: center;
+}
+header h2{
+    font-weight: 500;
+    margin-left: 25px;
+}
+.social{
+    display: flex;
+    margin-left: auto;
+    margin-right: 15px;
+}
+.social div{
+    margin-left: 1rem;
+}

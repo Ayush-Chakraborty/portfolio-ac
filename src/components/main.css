@@ -1,0 +1,16 @@
+.container{
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1.3fr 2fr;
+    grid-auto-rows: auto;
+    column-gap: 25px;
+    row-gap: 15px;
+}
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.coding{
+    grid-column: 2/4;
+}
