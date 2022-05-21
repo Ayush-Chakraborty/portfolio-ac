@@ -2,12 +2,13 @@ import React from "react";
 import SectionHeader from "../Global/SectionHeader";
 import CodingPlatform from "./CodingPlatform";
 import Stat from "./Stat";
+import "./coding.css";
 
 export default function Coding() {
   return (
     <div>
       <SectionHeader heading="CODING PROFILE" />
-      <div style={{ display: "flex", width: "100%" }}>
+      <div className="coding">
         <div
           style={{
             display: "flex",
@@ -15,6 +16,7 @@ export default function Coding() {
             justifyContent: "space-evenly",
             flexGrow: 1,
           }}
+          className="coding-platform"
         >
           <CodingPlatform
             link="https://codeforces.com/profile/AyushChakraborty"

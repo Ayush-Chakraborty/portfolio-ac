@@ -1,6 +1,6 @@
 import React from "react";
 import SectionHeader from "../Global/SectionHeader";
-
+import "./skills.css";
 export default function Skills() {
   const languages = ["C++", "PYTHON", "HTML", "CSS", "JAVASCRIPT", "SQL"];
   const frameworks = [
@@ -11,19 +11,23 @@ export default function Skills() {
     "AWS",
   ];
   return (
-    <div>
+    <>
       <SectionHeader heading="SKILLS" />
-      <div style={{ padding: "0 15px" }}>
-        <SkillHeader title="LANGUAGES" />
-        {languages.map((lan) => (
-          <SkillItem skill={lan} />
-        ))}
-        <SkillHeader title="FRAMEWORKS" />
-        {frameworks.map((lan) => (
-          <SkillItem skill={lan} />
-        ))}
+      <div className="skill">
+        <div>
+          <SkillHeader title="LANGUAGES" />
+          {languages.map((lan) => (
+            <SkillItem skill={lan} />
+          ))}
+        </div>
+        <dir>
+          <SkillHeader title="FRAMEWORKS" />
+          {frameworks.map((lan) => (
+            <SkillItem skill={lan} />
+          ))}
+        </dir>
       </div>
-    </div>
+    </>
   );
 }
 

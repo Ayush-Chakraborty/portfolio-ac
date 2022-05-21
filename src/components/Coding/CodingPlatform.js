@@ -3,7 +3,7 @@ import React, { useState } from "react";
 export default function CodingPlatform({ rank, platform, link }) {
   const [isHovering, setIsHovering] = useState(false);
   return (
-    <div style={{ width: "min(50%,200px)", padding: "15px 25px" }}>
+    <div style={{ minWidth: 150, maxWidth: 250, padding: 15 }}>
       <div>
         <p
           style={{

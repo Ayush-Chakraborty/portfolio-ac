@@ -1,34 +1,31 @@
 import React from "react";
 import Divider from "../Global/Divider";
-import Social from "../Global/Social";
 import "./heading.css";
-import email from "../../Assets/email.svg";
-import linkedin from "../../Assets/linkedin.svg";
-import github from "../../Assets/github.svg";
+import SocialGroup from "./SocialGroup";
 export default function Heading() {
   return (
     <header>
       <div>
-        <h1>: AYUSH CHAKRABORTY &gt;</h1>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "space-between",
+            alignItems: "center",
+            width: "100%",
+          }}
+        >
+          <h1>: AYUSH CHAKRABORTY &gt;</h1>
+        </div>
+        <h2 className="heading-sm">
+          WEB DEVELOPER / APP DEVELOPER / COMPETITIVE CODER
+        </h2>
         <Divider color="#F2EB3E" />
       </div>
-      <h2>WEB DEVELOPER / APP DEVELOPER / COMPETITIVE CODER</h2>
+      <h2 className="heading-lr">
+        WEB DEVELOPER / APP DEVELOPER / COMPETITIVE CODER
+      </h2>
       <div className="social">
-        <Social
-          img={email}
-          alt="Email icon"
-          link="mailto:ayush.cborty1@gmail.com"
-        />
-        <Social
-          img={linkedin}
-          alt="LinkedIn Icon"
-          link="https://www.linkedin.com/in/ayush-chakraborty-49bb721a2/"
-        />
-        <Social
-          img={github}
-          alt="Github Icon"
-          link="https://github.com/Ayush-Chakraborty"
-        />
+        <SocialGroup />
       </div>
     </header>
   );

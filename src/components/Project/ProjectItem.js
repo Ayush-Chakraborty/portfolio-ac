@@ -1,15 +1,15 @@
 import React from "react";
 import webProject from "../../Assets/webProject.svg";
 import appProject from "../../Assets/appProject.svg";
-const ProjectItem = ({ name, web }) => {
+const ProjectItem = ({ name, web, openModal }) => {
   return (
     <div
       style={{
         display: "flex",
         flexDirection: "column",
-        justifyContent: "center",
         alignItems: "center",
       }}
+      onClick={openModal}
     >
       <img
         src={web ? webProject : appProject}
@@ -23,6 +23,7 @@ const ProjectItem = ({ name, web }) => {
         style={{
           color: "white",
           marginTop: 10,
+          textAlign: "center",
         }}
       >
         {name}

@@ -26,11 +26,12 @@ export default function ExpItem() {
       </div>
       <div
         style={{
-          color: "#0066FF",
-          marginLeft: 15,
-          textAlign: "right",
+          // color: "#0066FF",
+          color: "rgb(105 165 255)",
           marginLeft: "auto",
           paddingLeft: 10,
+          float: "right",
+          textAlign: "right",
         }}
       >
         <h1>DELTAFOUR</h1>

@@ -4,9 +4,9 @@ import ExpItem from "./ExpItem";
 
 export default function Experience() {
   return (
-    <div>
+    <>
       <SectionHeader heading="EXPERIENCE" />
       <ExpItem />
-    </div>
+    </>
   );
 }
