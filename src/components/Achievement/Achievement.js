@@ -1,5 +1,5 @@
 import React from "react";
-import Divider from "../Global/Divider";
+// import Divider from "../Global/Divider";
 import SectionHeader from "../Global/SectionHeader";
 
 export default function Achievement() {
