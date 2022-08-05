@@ -88,7 +88,7 @@ export default function Institute() {
         }}
       >
         <p>2019-'23</p>
-        <p>8.61</p>
+        <p>8.65</p>
       </div>
     </div>
   );

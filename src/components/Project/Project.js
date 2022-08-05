@@ -4,10 +4,10 @@ import ProjectItem from "./ProjectItem";
 
 export default function Project({ modalOpenHandler }) {
   const projectNames = [
-    "E-BANKING APP",
-    "HOSPITAL MANAGEMENT APP",
+    "FILE-TRANSFER APP",
     "MEDIYOGA APP",
-    "PORTFOLIO SITE",
+    "HOSPITAL MANAGEMENT APP",
+    "E-BANKING APP",
     "NITW SITE",
     "TO-DO APP",
   ];

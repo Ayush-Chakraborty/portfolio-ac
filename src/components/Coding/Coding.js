@@ -19,14 +19,14 @@ export default function Coding() {
           className="coding-platform"
         >
           <CodingPlatform
+            link="https://www.codechef.com/users/ayush2020"
+            platform="CODECHEF"
+            rank="5 STAR"
+          />
+          <CodingPlatform
             link="https://codeforces.com/profile/AyushChakraborty"
             platform="CODEFORCES"
             rank="SPECIALIST"
-          />
-          <CodingPlatform
-            link="https://www.codechef.com/users/ayush2020"
-            platform="CODECHEF"
-            rank="4 STAR"
           />
         </div>
         <div

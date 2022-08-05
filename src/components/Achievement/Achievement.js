@@ -9,8 +9,8 @@ export default function Achievement() {
       <SectionHeader heading="ACHIEVEMENTS" />
       <AchievementElement text="Ranked 313 IN Google kickstart" year="2021" />
       <AchievementElement
-        text="Twice Institute Merit Scholarship holder"
-        year="2019-’20 & 2020-’21"
+        text="Thrice Institute Merit Scholarship holder"
+        year="2019, 2020, 2021"
       />
       <AchievementElement text="Awardee of JBNSTS Talent Search" year="2017" />
     </div>

@@ -7,7 +7,7 @@ export default function Skills() {
     "REACT",
     "REACT-NATIVE",
     "ANDROID STUDIO",
-    "NODE JS",
+    "FLUTTER",
     "AWS",
   ];
   return (

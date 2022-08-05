@@ -3,17 +3,29 @@ import hospital from "../../Assets/hospital.png";
 
 const projectData = [
   {
-    heading: "E-Banking webapp",
+    heading: "File Transfer App",
     desc: [
-      "It is a E-Banking webapp with the features of login, registartion, Account statement and Fund Transfer.",
-      "Login Credentials:",
-      "Username: admin  ,  Password: pass@1234",
-      "Account No.: 111111 , Pin: 123456",
+      "Send files from Mobile to PC and vice versa completely offline",
+      "Features:",
+      "50% faster than existing file transfer apps",
+      "Securely connect devices using QR code",
     ],
-    link: "https://ebanking-ac.netlify.app/",
-    github: "https://github.com/Ayush-Chakraborty/ebanking",
-    techstack: ["REACT", "MATERIAL UI", "HTML", "CSS", "JS"],
-    img: ebanking,
+    link: "https://drive.google.com/drive/u/1/folders/1rvarUFAkviRUiuwlJRoSRB4FkZpXqQ4M",
+    github: "https://github.com/Ayush-Chakraborty/syncit",
+    techstack: ["FLUTTER", "WEB-SOCKET"],
+  },
+  {
+    heading: "Mediyoga App",
+    desc: [
+      "A React Native App with user Authentication and incorporating Youtube API",
+      "Features:",
+      "This app fetches information from youtube about Yoga using youtube api",
+      "Authentication is done using firebase.",
+      "Database is deployed using Firebase.",
+    ],
+    link: "https://drive.google.com/file/d/1Yv4FKjcJ-TgrFnI_1XZTuyEVLDvpQF45/view?usp=sharing",
+    github: "https://github.com/Ayush-Chakraborty/mediyoga",
+    techstack: ["REACT NATIVE", "FIREBASE", "GOOGLE API", "JAVASCRIPT"],
   },
   {
     heading: "Hospital Management App",
@@ -31,30 +43,19 @@ const projectData = [
     img: hospital,
   },
   {
-    heading: "Mediyoga App",
+    heading: "E-Banking webapp",
     desc: [
-      "A React Native App with user Authentication and incorporating Youtube API",
-      "Features:",
-      "This app fetches information from youtube about Yoga using youtube api",
-      "Authentication is done using firebase.",
-      "Database is deployed using Firebase.",
+      "It is a E-Banking webapp with the features of login, registartion, Account statement and Fund Transfer.",
+      "Login Credentials:",
+      "Username: admin  ,  Password: pass@1234",
+      "Account No.: 111111 , Pin: 123456",
     ],
-    link: "https://drive.google.com/file/d/1Yv4FKjcJ-TgrFnI_1XZTuyEVLDvpQF45/view?usp=sharing",
-    github: "https://github.com/Ayush-Chakraborty/mediyoga",
-    techstack: ["REACT NATIVE", "FIREBASE", "GOOGLE API", "JAVASCRIPT"],
+    link: "https://ebanking-ac.netlify.app/",
+    github: "https://github.com/Ayush-Chakraborty/ebanking",
+    techstack: ["REACT", "MATERIAL UI", "HTML", "CSS", "JS"],
+    img: ebanking,
   },
-  {
-    heading: "Portfolio Site",
-    desc: [
-      "Portfolio site of ML Engineer.",
-      "Features:",
-      "Responsive web design",
-      "React based website",
-    ],
-    link: "https://soumyadip.nitw.in/",
-    github: "https://github.com/Ayush-Chakraborty/portfolio-ML-2",
-    techstack: ["REACT", "HTML", "CSS", "JS"],
-  },
+
   {
     heading: "My College",
     desc: [
